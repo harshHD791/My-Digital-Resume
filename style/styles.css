@@ -1,0 +1,82 @@
+* {
+    max-width: 100%;
+    font-family: 'Lobster', cursive;
+}
+a.navbar-brand {
+    font-size: 31px;
+}
+h2,h2{
+    padding:20px 0px;
+}
+img.my-image {
+    width: 68%;
+}
+ul.navbar-nav.ml-auto {
+    font-size: 20px;
+}
+#home {
+    border-bottom: 1px solid #000;
+}
+
+.description {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.my-text {
+    padding: 35px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+h2.heading {
+    font-size: 5rem;
+}
+
+h2.heading>span {
+    font-size: 3rem;
+    color: red;
+}
+
+.action-btn {
+    font-size: 1.3em;
+}
+
+#skills {
+    background-color: #fdd63f;
+}
+
+ul.skills-list {
+    font-size: 2em;
+    margin: 3% 0% 5% 14%;
+}
+
+img.skills-image {
+    width: 48%;
+    animation: rotation 10s infinite linear;
+    transform-origin: center center;
+    transform-style: preserve-3D;
+}
+.sub-heading{
+
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+.col.education {
+    background-color: #252a3f;
+    color: #fff !important;
+}
+.col.experience{
+    background-color: #4289a9;
+}
+.sub-list{
+    font-size:33px;
+}
